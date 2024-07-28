@@ -1,0 +1,16 @@
+name: vanguard_project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - jupyterlab
+  - pip
+  - pip:
+      - notebook
