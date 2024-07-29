@@ -10,7 +10,7 @@
 7. [Design Effectiveness and Power Analysis](#design-effectiveness-and-power-analysis)
 8. [Conclusion](#conclusion)
 9. [Project Management and Presentation](#Project-Management-and-Presentation)
-10. [Contact](#contact)
+11. [Contact](#contact)
 
 ## Project Overview
 
@@ -30,8 +30,8 @@
 
 ### 3rd Hypothesis: Interaction Patterns
 
-•	**Null Hypothesis (H0):** There is no difference in the number of actions taken between the Test and Control groups.
-•	**Alternative Hypothesis (H1):** There is a significant difference in the number of actions taken between the Test and Control groups.
+- **Null Hypothesis (H0):** There is no difference in the number of actions taken between the Test and Control groups.
+- **Alternative Hypothesis (H1):** There is a significant difference in the number of actions taken between the Test and Control groups.
 
 ## Data Sources
 1. `df_final_demo.csv`: Client demographic data.
@@ -88,6 +88,7 @@
 1. **Duration Acessment:** As showed on the line graph, 4 months were indeed enough to reach normalization.
 2. **Power Analysis on Completion Rate:** The required sample size per group was 3926, well inferior to our sample sizes, which means it was enough for the experiment.
 
+- **Overall the A/B testing was well structured with an homogenous traits (gender, balance, age) on both samples, with enough sizes and time to obtain tangible results!**
 
 ## Conclusion
 
