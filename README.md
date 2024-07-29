@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-2. [Goals and Hypotheses](#goals-and-hypotheses)
+2. [Hypotheses](#hypotheses)
 3. [Data Sources](#data-sources)
 4. [Data Preparation and Cleaning](#data-preparation-and-cleaning)
 5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
@@ -15,17 +15,25 @@
 12. [Contact](#contact)
 
 ## Project Overview
-This project aims to analyze client behavior and key performance metrics for Vanguard's online investment process. The goal is to determine if the new user interface (UI) leads to a higher completion rate compared to the traditional UI through A/B testing.
 
-## Goals and Hypotheses
+- This project aims to analyze client behavior and key performance metrics for Vanguard's online investment process. The goal is to determine if the new user interface (UI) leads to a higher completion rate compared to the traditional UI through A/B testing.
 
-### Goal 1: Completion Rate Analysis
+## Hypotheses
+
+### 1st Hypothesis: Completion Rate Analysis
+
 - **Null Hypothesis (H0):** There is no significant difference in completion rates between the Test and Control groups.
 - **Alternative Hypothesis (H1):** The completion rate is significantly higher in the Test group compared to the Control group.
 
-### Goal 2: Completion Rate with Cost-Effectiveness Threshold
+### 2nd Hypothesis: Completion Rate with Cost-Effectiveness Threshold
+
 - **Null Hypothesis (H0):** The increase in completion rate is less than 5%.
 - **Alternative Hypothesis (H1):** The increase in completion rate is at least 5%.
+
+### 3rd Hypothesis: Interaction Patterns
+
+•	**Null Hypothesis (H0):** There is no difference in the number of actions taken between the Test and Control groups.
+•	**Alternative Hypothesis (H1):** There is a significant difference in the number of actions taken between the Test and Control groups.
 
 ## Data Sources
 1. `df_final_demo.csv`: Client demographic data.
@@ -66,9 +74,34 @@ This project aims to analyze client behavior and key performance metrics for Van
    - Actual sample size (Control group): 140482
 
 ## Visualizations
-1. **Daily Conversion Rates Over Time:** Visualize daily conversion rates for both Control and Test groups.
-2. **Cumulative Conversion Rates Over Time:** Show cumulative completion rates to evaluate the duration of the experiment.
-3. **Gender Distribution by Group:** Analyze gender distribution across Control and Test groups.
+
+### 1. Proof of Concept (PoC) Diagram
+![PoC Diagram](Visualizations/ProjectPoC.png)
+*High-level overview of the project methodology, from data collection to analysis and conclusions.*
+
+### 2. Completion Rates by Variation 
+![Completion Rates](Visualizations/Hypothesis testing/1st hypothesis/piechart-completion-rate.png)
+*Comparison of completion rates between the Test and Control groups.*
+
+### 2. Cumulative Completion Rates Over Time
+![Cumulative Completion Rates](images/cumulative_completion_rates.png)
+*Accumulation of completion rates over the duration of the experiment, showing stabilization over time.*
+
+### 3. Gender Distribution by Group
+![Gender Distribution](images/gender_distribution.png)
+*Gender distribution within the Test and Control groups.*
+
+### 4. Age Distribution by Group
+![Age Distribution](images/age_distribution.png)
+*Comparison of age distribution between the Test and Control groups.*
+
+### 5. Balance Distribution by Group
+![Balance Distribution](images/balance_distribution.png)
+*Comparison of balance distributions between the Test and Control groups.*
+
+### 6. Proof of Concept (PoC) Diagram
+![PoC Diagram](images/poc_diagram.png)
+*High-level overview of the project methodology, from data collection to analysis and conclusions.*
 
 ## Conclusion
 The new user interface significantly improved the completion rate. The A/B test design was effective, and the sample size was sufficient to detect meaningful differences.
