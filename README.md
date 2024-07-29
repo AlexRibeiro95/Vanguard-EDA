@@ -95,7 +95,7 @@
 
 ## Project Management and Presentation
 
-- [Notion](
+- [Notion](https://fluttering-gram-d49.notion.site/Vanguard-Project-994f4e09dc754c6a88341fdc3e81e02a)
 - [Presentation](https://docs.google.com/presentation/d/1LbIrWp5f5J0NiaSSlKvnwH0MVz_TNlPTeb-bqVBjFHs/edit?usp=sharing)
 
 ## Contact
