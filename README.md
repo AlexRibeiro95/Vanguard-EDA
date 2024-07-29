@@ -54,35 +54,39 @@
 
 ### 1. Proof of Concept (PoC) Diagram
 ![PoC Diagram](Visualizations/ProjectPoC.png)
-*High-level overview of the project methodology, from data collection to analysis and conclusions.*
+- *High-level overview of the project methodology, from data collection to analysis and conclusions.*
 
 ### 2. Completion Rates (1st Hypothesis)
 ![Completion Rates](Visualizations/Hypothesis%20testing/1st%20hypothesis/piechart-completion-rate.png)
-*Comparison of completion rates between the Test and Control groups.*
+- *Comparison of completion rates between the Test and Control groups.*
 
 ### 3. Completion Rate with Cost-Effectiveness Threshold (2nd Hypothesis)
 ![Cumulative Completion Rates](Visualizations/Hypothesis%20testing/2nd%20hypothesis/completion-rate-with-treshold.png)
-*Completion rate based on a Cost-effectiveness treshold.*
+- *Completion rate based on a Cost-effectiveness treshold.*
 
 ### 4. Normalization Detection (3rd Hypothesis)
 ![Gender Distribution](Visualizations/Hypothesis%20testing/3rd%20hypothesis/histogram-QQplot-after-outlier-removal.png)
-*Histogram and Q-Qplot after removing outliers for better normalization. Shapiro-Wilk test of 0.94 and 0.95 (Normal Distribution)*
+- *Histogram and Q-Qplot after removing outliers for better normalization. Shapiro-Wilk test of 0.94 and 0.95 (Normal Distribution)*
 
 ### 5. Interaction Pattern (3rd Hypothesis)
 ![Age Distribution](Visualizations/Hypothesis%20testing/3rd%20hypothesis/barplot-with-outliers-avg-actions-per-group.png)
-*Bar plot showing average actions required to complete the process per group*
+- *Bar plot showing average actions required to complete the process per group*
 
 ### 6. Duration Acessment
 ![Balance Distribution](Visualizations/Design%20Effectiveness/linegraph-completion-rate-timespan.png)
-*Line graph showing normalization after 4 months, showing that duration of the experiment was enough*
+- *Line graph showing normalization after 4 months, showing that duration of the experiment was enough*
 
 ### 6. Power Analysis on Completion Rate
 ![PoC Diagram](Visualizations/Design%20Effectiveness/powercurve-completion-rate.png)
-*Power Analysis using Cohen's D effect to access if the sample size was enough*
+- *Power Analysis using Cohen's D effect to access if the sample size was enough*
+
+### PowerBI and Streamlit
+
+-
 
 ## Design Effectiveness and Power Analysis
-1. **Power Analysis:** Assess the sample size and effect size using Cohen's d.
-2. **Design Evaluation:** Evaluate the effectiveness of the A/B test design and duration.
+1. **Duration Acessment:** As showed on the line graph, 4 months were indeed enough to reach normalization.
+2. **Power Analysis on Completion Rate:** The required sample size per group was 3926, well inferior to our sample sizes, which means it was enough for the experiment.
 
 
 ## Conclusion
@@ -90,6 +94,9 @@
 - The new user interface significantly improved the completion rate. The A/B test design was effective, and the sample size was sufficient to detect meaningful differences.
 
 ## Project Management and Presentation
+
+- [Notion](
+- [Presentation](https://docs.google.com/presentation/d/1LbIrWp5f5J0NiaSSlKvnwH0MVz_TNlPTeb-bqVBjFHs/edit?usp=sharing)
 
 ## Contact
 
