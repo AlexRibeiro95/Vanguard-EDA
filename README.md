@@ -57,7 +57,7 @@
 *High-level overview of the project methodology, from data collection to analysis and conclusions.*
 
 ### 2. Completion Rates by Variation 
-![Completion Rates](Visualizations/Hypothesis-testing/1st-hypothesis/piechart-completion-rate.png)
+![Completion Rates](Visualizations/Hypothesis%testing/1st%hypothesis/piechart-completion-rate.png)
 *Comparison of completion rates between the Test and Control groups.*
 
 ### 2. Cumulative Completion Rates Over Time
