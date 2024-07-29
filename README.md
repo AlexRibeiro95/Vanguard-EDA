@@ -56,29 +56,29 @@
 ![PoC Diagram](Visualizations/ProjectPoC.png)
 *High-level overview of the project methodology, from data collection to analysis and conclusions.*
 
-### 2. Completion Rates by Variation 
+### 2. Completion Rates (1st Hypothesis)
 ![Completion Rates](Visualizations/Hypothesis%20testing/1st%20hypothesis/piechart-completion-rate.png)
 *Comparison of completion rates between the Test and Control groups.*
 
-### 2. Cumulative Completion Rates Over Time
-![Cumulative Completion Rates](images/cumulative_completion_rates.png)
-*Accumulation of completion rates over the duration of the experiment, showing stabilization over time.*
+### 3. Completion Rate with Cost-Effectiveness Threshold (2nd Hypothesis)
+![Cumulative Completion Rates](Visualizations/Hypothesis%20testing/2nd%20hypothesis/completion-rate-with-treshold.png)
+*Completion rate based on a Cost-effectiveness treshold.*
 
-### 3. Gender Distribution by Group
-![Gender Distribution](images/gender_distribution.png)
-*Gender distribution within the Test and Control groups.*
+### 4. Normalization Detection (3rd Hypothesis)
+![Gender Distribution](Visualizations/Hypothesis%20testing/3rd%20hypothesis/histogram-QQplot-after-outlier-removal.png)
+*Histogram and Q-Qplot after removing outliers for better normalization. Shapiro-Wilk test of 0.94 and 0.95 (Normal Distribution)*
 
-### 4. Age Distribution by Group
-![Age Distribution](images/age_distribution.png)
-*Comparison of age distribution between the Test and Control groups.*
+### 5. Interaction Pattern (3rd Hypothesis)
+![Age Distribution](Visualizations/Hypothesis%20testing/3rd%20hypothesis/barplot-with-outliers-avg-actions-per-group.png)
+*Bar plot showing average actions required to complete the process per group*
 
-### 5. Balance Distribution by Group
-![Balance Distribution](images/balance_distribution.png)
-*Comparison of balance distributions between the Test and Control groups.*
+### 6. Duration Acessment
+![Balance Distribution](Visualizations/Design%20Effectiveness/linegraph-completion-rate-timespan.png)
+*Line graph showing normalization after 4 months, showing that duration of the experiment was enough*
 
-### 6. Proof of Concept (PoC) Diagram
-![PoC Diagram](images/poc_diagram.png)
-*High-level overview of the project methodology, from data collection to analysis and conclusions.*
+### 6. Power Analysis on Completion Rate
+![PoC Diagram](Visualizations/Design%20Effectiveness/powercurve-completion-rate.png)
+*Power Analysis using Cohen's D effect to access if the sample size was enough*
 
 ## Design Effectiveness and Power Analysis
 1. **Power Analysis:** Assess the sample size and effect size using Cohen's d.
