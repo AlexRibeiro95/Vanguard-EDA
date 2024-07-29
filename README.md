@@ -6,13 +6,11 @@
 3. [Data Sources](#data-sources)
 4. [Data Preparation and Cleaning](#data-preparation-and-cleaning)
 5. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-6. [Hypothesis Testing](#hypothesis-testing)
+6. [Visualizations](#visualizations)
 7. [Design Effectiveness and Power Analysis](#design-effectiveness-and-power-analysis)
-8. [Key Findings](#key-findings)
-9. [Visualizations](#visualizations)
-10. [Conclusion](#conclusion)
-11. [How to Run the Project](#how-to-run-the-project)
-12. [Contact](#contact)
+8. [Conclusion](#conclusion)
+9. [Project Management and Presentation](#Project-Management-and-Presentation)
+10. [Contact](#contact)
 
 ## Project Overview
 
@@ -43,35 +41,14 @@
 
 ## Data Preparation and Cleaning
 1. **Loading Data:** Load and inspect datasets.
-2. **Univariate and Bivariate Analysis:** Perform initial analysis to understand the data.
+2. **Univariate and Bivariate Analysis:** Perform initial analysis to understand variables relation, and outlier detection.
 3. **Cleaning Data:** Handle missing values, remove duplicates, and address outliers.
 4. **Merging Datasets:** Merge datasets to create a comprehensive dataset for analysis.
 
 ## Exploratory Data Analysis (EDA)
 1. **Demographic Analysis:** Analyze client demographics (age, gender, tenure, balance).
 2. **Behavior Analysis:** Study client behavior based on web interaction data.
-3. **High-Value Clients:** Identify high-value clients and their traits.
-
-## Hypothesis Testing
-1. **Completion Rate Calculation:** Calculate completion rates for both Test and Control groups.
-2. **Statistical Testing:** Perform chi-square test to determine if the difference in completion rates is statistically significant.
-
-## Design Effectiveness and Power Analysis
-1. **Power Analysis:** Assess the sample size and effect size using Cohen's d.
-2. **Design Evaluation:** Evaluate the effectiveness of the A/B test design and duration.
-
-## Key Findings
-1. **Completion Rate by Variation:**
-   - Control: 45.6%
-   - Test: 48.0%
-2. **Chi-Square Test Results:**
-   - Chi-Square Statistic: 188.3202
-   - P-value: 0.0000
-3. **Power Analysis Results:**
-   - Effect Size (Cohen's d): 0.0632
-   - Required sample size per group: 3926.69
-   - Actual sample size (Test group): 176641
-   - Actual sample size (Control group): 140482
+3. **High-Value Clients:** Identified primary clients based on the A/B testing, and before cleaning identified high value clients (with outliers).
 
 ## Visualizations
 
@@ -103,16 +80,18 @@
 ![PoC Diagram](images/poc_diagram.png)
 *High-level overview of the project methodology, from data collection to analysis and conclusions.*
 
+## Design Effectiveness and Power Analysis
+1. **Power Analysis:** Assess the sample size and effect size using Cohen's d.
+2. **Design Evaluation:** Evaluate the effectiveness of the A/B test design and duration.
+
+
 ## Conclusion
-The new user interface significantly improved the completion rate. The A/B test design was effective, and the sample size was sufficient to detect meaningful differences.
 
-## How to Run the Project
+- The new user interface significantly improved the completion rate. The A/B test design was effective, and the sample size was sufficient to detect meaningful differences.
 
-### Prerequisites
-- Python 3.x
-- Conda
+## Project Management and Presentation
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repository/vanguard-investment-project.git
+## Contact
+
+- [Alexandre Linkedin](https://www.linkedin.com/in/alexandre-ribeiro-264445279/) 
+- [José Linkedin](https://www.linkedin.com/in/jos%C3%A9-pedro-barbosa-brand%C3%A3o-663a172b6/)
