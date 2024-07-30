@@ -82,7 +82,8 @@
 
 ### PowerBI and Streamlit
 
--
+- [PowerBI Dashboard]
+- [Streamlit](https://vanguard-project.streamlit.app/)
 
 ## Design Effectiveness and Power Analysis
 1. **Duration Acessment:** As showed on the line graph, 4 months were indeed enough to reach normalization.
