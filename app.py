@@ -9,6 +9,8 @@ from backend import (
     plot_power_analysis, plot_normalization_graph_interactive
 )
 
+st.set_page_config(layout="wide", page_title="Vanguard Project - Clients Analysis", page_icon="🏨")
+
 # Function to download data as CSV
 def convert_df_to_csv(df):
     return df.to_csv().encode('utf-8')
