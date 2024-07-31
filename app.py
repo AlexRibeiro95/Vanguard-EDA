@@ -42,13 +42,20 @@ else:
                                (df_cleaned['clnt_age'].between(*age_filter)) &
                                (df_cleaned['gender'].isin(gender_filter)) &
                                (df_cleaned['variation'].isin(variation_filter))]
-
-# Display data tables
+    
+# Display filtered data table
 st.title("Data Overview")
-st.write("### Merged Dataset with Outliers (High Value Customers)")
-st.write(df_merged)
-st.write("### Cleaned Dataset (Primary Clients)")
-st.write(df_cleaned)
+st.write(f"### {dataset_choice}")
+st.write(filtered_data)
+
+# Add download button for filtered data
+csv_filtered = convert_df_to_csv(filtered_data)
+st.download_button(
+    label="Download filtered data as CSV",
+    data=csv_filtered,
+    file_name='filtered_data.csv',
+    mime='text/csv',
+)
 
 # Display upper quartile intervals
 st.write("### Upper Quartile Intervals")
@@ -93,12 +100,3 @@ st.title("Normalization Graph")
 fig_normalization_graph = plot_normalization_graph_interactive(df_merged)
 st.plotly_chart(fig_normalization_graph)
 
-# Add download button for filtered data
-st.title("Download Filtered Data")
-csv = convert_df_to_csv(filtered_data)
-st.download_button(
-    label="Download filtered data as CSV",
-    data=csv,
-    file_name='filtered_data.csv',
-    mime='text/csv',
-)
