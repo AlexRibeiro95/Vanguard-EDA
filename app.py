@@ -1,9 +1,17 @@
+import io
+import pandas as pd
+import numpy as np
+import plotly.express as px
 import streamlit as st
 from backend import (
-    load_data, get_upper_quartiles, plot_high_value_clients, plot_primary_clients, 
-    plot_design_effectiveness, plot_time_to_completion, plot_power_analysis, 
-    plot_normalization_graph_interactive
+    load_data, get_upper_quartiles, plot_high_value_clients,
+    plot_primary_clients, plot_design_effectiveness, plot_time_to_completion,
+    plot_power_analysis, plot_normalization_graph_interactive
 )
+
+# Function to download data as CSV
+def convert_df_to_csv(df):
+    return df.to_csv().encode('utf-8')
 
 # Load data
 df_merged, df_cleaned = load_data()
@@ -84,3 +92,13 @@ st.plotly_chart(fig_power_analysis)
 st.title("Normalization Graph")
 fig_normalization_graph = plot_normalization_graph_interactive(df_merged)
 st.plotly_chart(fig_normalization_graph)
+
+# Add download button for filtered data
+st.title("Download Filtered Data")
+csv = convert_df_to_csv(filtered_data)
+st.download_button(
+    label="Download filtered data as CSV",
+    data=csv,
+    file_name='filtered_data.csv',
+    mime='text/csv',
+)
