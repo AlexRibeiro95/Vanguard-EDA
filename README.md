@@ -82,7 +82,7 @@
 
 ### PowerBI and Streamlit
 
-- [PowerBI Dashboard]
+- [Tableau KPI's Dashboard](https://public.tableau.com/app/profile/alexandre.ribeiro3953/viz/KPIsDashboard_17225073409150/KPIsDashboard)
 - [Streamlit](https://vanguard-project.streamlit.app/)
 
 ## Design Effectiveness and Power Analysis
